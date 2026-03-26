@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张雪峰猝然离世</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto Sans SC', 'SF Pro Display', -apple-system, sans-serif;
+            background: #000;
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        .slide {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .slide-title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #fff 0%, #888 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .slide-subtitle {
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+        .slide-content {
+            font-size: 28px;
+            line-height: 1.8;
+            color: #ccc;
+            font-weight: 300;
+        }
+        .slide-content strong {
+            color: #fff;
+            font-weight: 500;
+        }
+        .highlight {
+            color: #007AFF;
+            font-weight: 500;
+        }
+        .number {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            font-size: 120px;
+            font-weight: 700;
+            color: rgba(255,255,255,0.05);
+            font-family: 'SF Pro Display', sans-serif;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 20px 0;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .data-point {
+            font-size: 64px;
+            font-weight: 700;
+            color: #007AFF;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .data-label {
+            font-size: 20px;
+            color: #888;
+        }
+        .quote {
+            font-size: 32px;
+            font-weight: 300;
+            color: #fff;
+            font-style: italic;
+            text-align: center;
+            padding: 40px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(0,122,255,0.2);
+            color: #007AFF;
+            border-radius: 20px;
+            font-size: 18px;
+            margin: 5px;
+        }
+        .timeline {
+            border-left: 2px solid #333;
+            padding-left: 30px;
+            margin: 20px 0;
+        }
+        .timeline-item {
+            margin: 20px 0;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -36px;
+            top: 10px;
+            width: 12px;
+            height: 12px;
+            background: #007AFF;
+            border-radius: 50%;
+        }
+        @media (max-width: 768px) {
+            .slide { padding: 40px 24px; }
+            .slide-title { font-size: 36px; }
+            .slide-content { font-size: 20px; }
+            .number { font-size: 80px; }
+            .data-point { font-size: 48px; }
+            .quote { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Slide 1: 标题 -->
+    <div class="slide" style="background: linear-gradient(180deg, #000 0%, #0a0a0a 100%);">
+        <div class="number">41</div>
+        <h1 class="slide-title" style="font-size: 56px;">张雪峰猝然离世</h1>
+        <p class="slide-subtitle">那个说"报新闻学就打晕"的人，改变了千万家庭的志愿选择</p>
+        <div style="margin-top: 60px; color: #666; font-size: 20px;">
+            <p>2026年3月24日 · 苏州</p>
+            <p style="margin-top: 10px;">心源性猝死，年仅41岁</p>
+        </div>
+    </div>
+
+    <!-- Slide 2: 人物概述 -->
+    <div class="slide">
+        <div class="number">00</div>
+        <h2 class="slide-title">十年，从讲师到现象级</h2>
+        <div class="slide-content" style="margin-top: 40px;">
+            <p style="margin-bottom: 30px;">东北口音的男人，用最直白的语言拆解大学专业</p>
+            <p style="margin-bottom: 30px;">从考研辅导到高考志愿填报</p>
+            <p>数千万粉丝，影响了千万家庭的志愿选择</p>
+        </div>
+        <div style="margin-top: 50px;">
+            <span class="tag">考研名师</span>
+            <span class="tag">志愿专家</span>
+            <span class="tag">流量天才</span>
+        </div>
+    </div>
+
+    <!-- Slide 3: 信息破壁人 -->
+    <div class="slide">
+        <div class="number">01</div>
+        <h2 class="slide-title">信息破壁人</h2>
+        <div class="slide-content" style="margin-top: 30px;">
+            <div class="card">
+                <p style="margin-bottom: 20px;">张雪峰最厉害的地方，是把那些本该专业人士才懂的东西，用大白话直接撂在了桌面上。</p>
+                <p>很多普通家庭的孩子选专业，基本就是闭眼抓瞎。张雪峰不整虚的，直接告诉你哪些专业能找工作、哪些专业毕业即失业。</p>
+            </div>
+            <p style="margin-top: 30px; color: #888; font-size: 24px;">“七分考，三分报” — 考得好不如报得好</p>
+        </div>
+    </div>
+
+    <!-- Slide 4: 专业优先的革命 -->
+    <div class="slide">
+        <div class="number">02</div>
+        <h2 class="slide-title">专业优先的革命</h2>
+        <div class="slide-content" style="margin-top: 30px;">
+            <p style="margin-bottom: 20px;">在张雪峰出现之前，大多数普通家庭报志愿基本就是蒙着填。</p>
+            <p style="margin-bottom: 20px;">高校宣传永远写得光鲜，但真实的就业情况、哪些专业其实是坑，没人告诉你。</p>
+            <p>张雪峰把被刻意掩盖的信息抠出来，翻译成人话：</p>
+            <div class="card" style="margin-top: 20px;">
+                <p>• 国际本科拿不到国内毕业证</p>
+                <p>• 烟草系统招人的门道</p>
+                <p>• 哪些专业是“天坑”</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: 数据说话 -->
+    <div class="slide">
+        <div class="number">03</div>
+        <h2 class="slide-title">数据说话的力量</h2>
+        <div style="margin-top: 40px;">
+            <div class="card" style="text-align: center;">
+                <span class="data-point">4680元</span>
+                <span class="data-label">生物工程应届生平均月薪</span>
+            </div>
+            <div class="card" style="text-align: center;">
+                <span class="data-point">59.3%</span>
+                <span class="data-label">生物工程对口就业率</span>
+            </div>
+        </div>
+        <p style="margin-top: 30px; text-align: center; font-size: 32px; color: #fff;">
+            对比：计算机类 92.3% 就业率，7800元薪资
+        </p>
+        <p style="margin-top: 30px; text-align: center; color: #666; font-size: 24px;">
+            “富人选情怀，穷人选就业”
+        </p>
+    </div>
+
+    <!-- Slide 6: 张雪峰效应 -->
+    <div class="slide">
+        <div class="number">04</div>
+        <h2 class="slide-title">张雪峰效应</h2>
+        <div style="margin-top: 30px;">
+            <div class="card" style="text-align: center;">
+                <span class="data-point">11倍</span>
+                <span class="data-label">2023年抖音搜索指数是2022年的</span>
+            </div>
+            <div class="card" style="text-align: center;">
+                <span class="data-point">34倍</span>
+                <span class="data-label">2023年抖音搜索指数是2021年的</span>
+            </div>
+        </div>
+        <div style="margin-top: 30px;">
+            <span class="tag">新闻学录取下降4%</span>
+            <span class="tag">金融学录取下降4%</span>
+            <span class="tag">28%专业受影响</span>
+        </div>
+    </div>
+
+    <!-- Slide 7: 争议与批评 -->
+    <div class="slide">
+        <div class="number">05</div>
+        <h2 class="slide-title">争议与批评</h2>
+        <div class="slide-content" style="margin-top: 30px;">
+            <div class="quote">
+                “如果孩子报新闻学就打晕”
+            </div>
+            <div class="quote" style="color: #666; margin-top: 20px;">
+                “文科都叫服务业”
+            </div>
+        </div>
+        <div style="margin-top: 40px;">
+            <p style="color: #888; font-size: 22px;">• 窄化了教育的意义</p>
+            <p style="color: #888; font-size: 22px;">• 加剧了全社会的教育焦虑</p>
+            <p style="color: #888; font-size: 22px;">• 几年前的土木工程推荐很快遇冷</p>
+        </div>
+    </div>
+
+    <!-- Slide 8: 商业化质疑 -->
+    <div class="slide">
+        <div class="number">06</div>
+        <h2 class="slide-title">商业化的质疑</h2>
+        <div style="margin-top: 30px;">
+            <div class="card" style="text-align: center;">
+                <span class="data-point">2亿元</span>
+                <span class="data-label">当天销售额</span>
+            </div>
+        </div>
+        <div style="margin-top: 30px;">
+            <p style="color: #888; font-size: 24px; text-align: center;">11999元梦想卡 · 17999元圆梦卡</p>
+            <p style="color: #666; font-size: 20px; text-align: center; margin-top: 20px;">免费内容只剩皮毛，信息平权成了商业噱头</p>
+        </div>
+    </div>
+
+    <!-- Slide 9: 身体透支 -->
+    <div class="slide">
+        <div class="number">08</div>
+        <h2 class="slide-title">身体透支的警示</h2>
+        <div class="slide-content" style="margin-top: 30px;">
+            <p style="margin-bottom: 20px;">2023年因胸闷心悸被医院强制住院</p>
+            <p style="margin-bottom: 20px;">医生说"再熬夜就要命了"，他转头就开播</p>
+            <p style="margin-bottom: 20px;">3月累计跑步72公里，看起来"健康"，其实是"透支"</p>
+            <div class="card" style="margin-top: 30px;">
+                <p style="text-align: center; color: #007AFF; font-size: 28px;">长期熬夜 + 高强度工作 + 跑步过量</p>
+                <p style="text-align: center; color: #666; margin-top: 10px;">= 心源性猝死</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: 行业反思 -->
+    <div class="slide">
+        <div class="number">09</div>
+        <h2 class="slide-title">行业反思</h2>
+        <div class="slide-content" style="margin-top: 30px;">
+            <p style="margin-bottom: 30px;">教育不能被功利主义绑架</p>
+            <p style="margin-bottom: 30px;">每个专业都有它的价值，每个考生都有它的潜力</p>
+            <p style="margin-bottom: 30px;">不是给专业贴"好"或"坏"的标签</p>
+            <p>用理性的分析、全面的信息，帮考生找到"既能安身立命，又能实现价值"的方向</p>
+        </div>
+    </div>
+
+    <!-- Slide 11: 留下的遗产 -->
+    <div class="slide" style="background: linear-gradient(180deg, #0a0a0a 0%, #000 100%);">
+        <div class="number">10</div>
+        <h2 class="slide-title">留下的遗产</h2>
+        <div class="slide-content" style="margin-top: 30px;">
+            <p style="margin-bottom: 30px; color: #888;">这辈子赚了钱，赚了流量，没赚到命</p>
+            <p style="margin-bottom: 30px;">留下的是没做完的直播，和那些被他骂过的专业</p>
+            <p style="margin-bottom: 40px;">他曾努力给年轻人提供一份确定</p>
+            <div style="border-top: 1px solid #333; padding-top: 30px;">
+                <p style="color: #666; font-size: 20px;">郑州大学校友会悼念</p>
+                <p style="color: #888; margin-top: 10px;">捐赠设立"峰学蔚来助学金"，资助家庭经济困难的学弟学妹</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 12: 结尾 -->
+    <div class="slide" style="background: #000; text-align: center;">
+        <h1 class="slide-title" style="font-size: 64px; margin-bottom: 40px;">1978 - 2026</h1>
+        <p style="color: #666; font-size: 24px;">那个操着东北口音、用最直白语言拆解大学专业的教育博主</p>
+        <p style="color: #444; font-size: 20px; margin-top: 40px;">生命永远定格在了这个春天</p>
+        <p style="color: #333; font-size: 18px; margin-top: 60px;">追悼会：2026年3月28日 7:00 · 苏州殡仪馆</p>
+    </div>
+</body>
+</html>
